@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eiasin Prodhan</title>
+    <title>Login</title>
     <style>
         *{
             margin: 0px;
@@ -14,10 +14,10 @@
             color: white;
         }
         a:hover{
-            color: brown;
+            color: black;
         }
         #navbar{
-            background: black;
+            background: blue;
             width: 100%;
             height: 10vh;
             color: white;
@@ -37,18 +37,32 @@
             margin: 25px 5px 5px 5px;
             
         }
+
+        h1{
+            text-align: center;
+            color: blue;
+            margin: 50px;
+        }
+        
+        form{
+            margin: 0px 250px;
+        }
     </style>
 </head>
 <body>
     <div id="navbar">
-        <h2 id="logo">EIASIN PRODHAN</h2>
+        <h2 id="logo">Facebook</h2>
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Testmonial</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Home</a></li>
+            <li><a href="registration.html">Create new account</a></li>
         </ul>
     </div>
+    <h1>LOGIN</h1>
+    <form action="">
+        <label for="">Email Or Phone</label><br>
+        <input type="text"><br>
+        <label for="">Password</label><br>
+        <input type="password"><br>
+        <a href="forget">Forgotten password?</a>
+    </form>
 </body>
 </html>
