@@ -3,27 +3,42 @@ body{
 }
 
 input[type=text]{
-    background-color: aquamarine;
+    background-color: bisque;
+    width: 500px;
+    height: 5vh;
 }
 
 input[type=email]{
-    background-color: blanchedalmond;
+    background-color: bisque;
+    width: 500px;
+    height: 5vh;
 }
 
 input[type=password]{
-    background-color: antiquewhite;
+    background-color: bisque;
+    width: 500px;
+    height: 5vh;
 }
 
 input[type=date]{
-    background-color: antiquewhite;
+    background-color: bisque;
+    width: 500px;
+    height: 5vh;
 }
 
 input[type=submit]{
-    background-color: brown;
+    background-color: maroon;
     color: white;
+}
+
+select{
+    background-color: bisque;
+    width: 500px;
+    height: 5vh;
 }
 
 textarea{
     background-color: bisque;
+    width: 500px;
 }
 
