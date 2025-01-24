@@ -49,18 +49,21 @@ fieldset{
 
 #news{
     width: 500px;
-    margin: 0px 0px 0px 500px;
+    margin-left: 50px;
 }
 
 p{
     text-align: justify;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 50px 50px 50px;
 }
 
 h3{
-    margin: 10px 0px;
+    margin: 10px 50px;
     color: brown;
-    text-align: center;
+}
+
+h2{
+    padding: 10px;
 }
 
 
@@ -85,4 +88,8 @@ input[type=submit]{
     height: 5vh;
     margin: 5px 0px;
     padding: 5px;
+}
+
+legend{
+    text-align: center;
 }
