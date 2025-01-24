@@ -44,14 +44,23 @@ ul, li{
 fieldset{
     margin: 10px;
     padding: 10px;
+    background-color: cornsilk;
 }
 
 #news{
     width: 500px;
+    margin: 0px 0px 0px 500px;
 }
 
 p{
     text-align: justify;
+    margin: 0px 50px 0px 50px;
+}
+
+h3{
+    margin: 10px 0px;
+    color: brown;
+    text-align: center;
 }
 
 
@@ -70,8 +79,8 @@ input[type=password]{
 }
 
 input[type=submit]{
-    background-color: bisque;
-
+    background-color: maroon;
+    color: white;
     width: 515px;
     height: 5vh;
     margin: 5px 0px;
