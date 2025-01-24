@@ -43,7 +43,6 @@ ul, li{
 
 fieldset{
     margin: 10px;
-    padding: 10px;
     background-color: cornsilk;
 }
 
@@ -92,4 +91,5 @@ input[type=submit]{
 
 legend{
     text-align: center;
+    margin: 10px;
 }
