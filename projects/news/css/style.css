@@ -20,7 +20,7 @@ nav{
 }
 
 #navleft{
-    width: 60%;
+    width: 55%;
     float: left;
     margin: 10px 0px 0px 0px;
 }
@@ -30,7 +30,7 @@ nav{
 }
 
 #navright{
-    width: 40%;
+    width: 45%;
     float: right;
 }
 
