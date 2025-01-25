@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body{
+    background-color: #f2f4f7;
+}
+
 a{
     text-decoration: none;
 }
@@ -29,20 +33,20 @@ a{
 }
 
 input[type=text]{
-    height: 5vh;
-    width: 500px;
+    height: 6vh;
+    width: 400px;
     margin-bottom: 10px;
 }
 
 input[type=password]{
-    height: 5vh;
-    width: 500px;
+    height: 6vh;
+    width: 400px;
     margin-bottom: 10px;
 }
 
 input[type=submit]{
     height: 7vh;
-    width: 500px;
+    width: 404px;
     margin-bottom: 10px;
     background-color: #0866ff;
     color: white;
@@ -51,8 +55,15 @@ input[type=submit]{
 
 #new{
     height: 7vh;
-    width: 500px;
+    width: 404px;
     margin-bottom: 10px;
     background-color: #42b72a;
     color: white;
+}
+
+form{
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
 }
