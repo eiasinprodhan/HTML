@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    background-color: darkslategrey;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
+
+h1{
+    padding: 20px;
+}
+
+#main{
+    width: 100%;
+    height: 85vh;
+}
+
+#sidebar{
+    background-color: teal;
+    width: 20%;
+    height: 85vh;
+    float: left;
+}
+
+#content{
+    background-color: white;
+    width: 80%;
+    height: 85vh;
+    float: left;
+}
+
+iframe{
+    width: 80%;
+    height: 85vh;;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    padding-top: 0px;
+}
+
+li{
+    background-color: darkslategray;
+    margin: 20px 10px;
+    padding: 5px 10px;
+}
+
+li:hover{
+    background-color: black;
+}
+
+footer{
+    background-color: darkslategrey;
+    color: white;
+    height: 5vh;
+    text-align: center;
+    padding-top: 5px;
+}
+
+fieldset{
+    margin: 50px 180px;
+    width: 100%;
+    background-color: bisque;
+}
+
+img{
+    display: block;
+    width: 95%;
+    margin: 0px auto;
+}
+
+legend{
+    text-align: center;
+}
+
+form{
+    display: block;
+    width: 70%;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+input[type=text]{
+    width: 100%;
+    height: 5vh;
+    margin-top: 5px;
+}
+
+input[type=email]{
+    width: 100%;
+    height: 5vh;
+    margin-top: 5px;
+}
+
+input[type=password]{
+    width: 100%;
+    height: 5vh;
+    margin-top: 5px;
+}
+
+select{
+    width: 100%;
+    height: 5vh;
+    margin-top: 5px;
+}
+
+input[type=date]{
+    width: 100%;
+    height: 5vh;
+    margin-top: 5px;
+}
+
+input[type=file]{
+    width: 100%;
+    height: 5vh;
+    margin-top: 5px;
+}
+
+textarea{
+    width: 100%;
+    height: 15vh;
+    margin-top: 5px;
+}
+
+input[type=submit]{
+    background-color: darkslategray;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    margin-top: 5px;
+}
