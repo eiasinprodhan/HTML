@@ -5,11 +5,11 @@
 
 a{
     text-decoration: none;
-    color: black;
+    color: brown;
 }
 
 a:hover{
-    color: brown;
+    color: black;
 }
 
 nav{
@@ -92,4 +92,9 @@ input[type=submit]{
 legend{
     text-align: center;
     margin: 10px;
+}
+
+#login{
+    background-color: gold;
+    padding: 10px;
 }
