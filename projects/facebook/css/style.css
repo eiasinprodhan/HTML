@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#login{
+    width: 100%;
+    height: 100vh;
+}
+
+#loginleft{
+    width: 45%;
+    float: left;
+    margin: 20vh 2.5%;
+}
+
+#loginleft img{
+    width: 300px;
+}
+
+#loginright{
+    width: 45%;
+    float: left;
+    margin: 20vh 2.5%;
+}
+
+input[type=text]{
+    height: 5vh;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+input[type=password]{
+    height: 5vh;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+input[type=submit]{
+    height: 7vh;
+    width: 500px;
+    margin-bottom: 10px;
+    background-color: #0866ff;
+    color: white;
+    padding: 10px;
+}
+
+#new{
+    height: 7vh;
+    width: 500px;
+    margin-bottom: 10px;
+    background-color: #42b72a;
+    color: white;
+}
