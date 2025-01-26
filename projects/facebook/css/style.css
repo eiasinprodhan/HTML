@@ -33,15 +33,19 @@ a{
 }
 
 input[type=text]{
-    height: 6vh;
+    height: 7vh;
     width: 400px;
     margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
 }
 
 input[type=password]{
-    height: 6vh;
+    height: 7vh;
     width: 400px;
     margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
 }
 
 input[type=submit]{
@@ -51,6 +55,8 @@ input[type=submit]{
     background-color: #0866ff;
     color: white;
     padding: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
 }
 
 #new{
@@ -59,6 +65,8 @@ input[type=submit]{
     margin-bottom: 10px;
     background-color: #42b72a;
     color: white;
+    border-radius: 8px;
+    border: 1px solid white;
 }
 
 form{
@@ -66,4 +74,5 @@ form{
     padding: 20px;
     width: 400px;
     height: 300px;
+    border-radius: 10px;
 }
