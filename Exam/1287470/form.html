@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        input[type=text]{
+            width: 500px;
+            height: 30px;
+        }
+
+        textarea{
+            width: 500px;
+            height: 60px;
+        }
+
+        select{
+            width: 500px;
+            height: 30px;
+        }
+
+        input[type=submit]{
+            background-color: green;
+            color: white;
+            border: 0px;
+            width: 250px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        input[type=reset]{
+            background-color: red;
+            color: white;
+            border: 0px;
+            width: 250px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+      #form{
+        display: block;
+        margin: 0px auto 0px auto;
+      }
+
+    </style>
+</head>
+<body>
+    <div id="form">
+        <h1>Student Registration Form</h1>
+        <form action="">
+            <label for=""><b>ID</b></label>
+            <br>
+            <input type="text">
+            <br>
+            <label for=""><b>Name</b></label>
+            <br>
+            <textarea name="" id=""></textarea>
+            <br>
+            <label for=""><b>Round</b></label>
+            <br>
+            <select name="" id="">
+                <option value="">60</option>
+                <option value="">61</option>
+                <option value="">62</option>
+                <option value="">63</option>
+                <option value="">64</option>
+                <option value="">65</option>
+            </select>
+            <br>
+            <label for=""><b>Gender</b></label>
+            <br>
+            <input name="gender" type="radio" value=""> Male
+            <br>
+            <input name="gender" type="radio" value=""> Female
+            <br>
+            <label for=""><b>Education</b></label>
+            <br>
+            <input type="checkbox" name="" id=""> SSC
+            <input type="checkbox" name="" id=""> HSC
+            <br>
+            <input type="submit" value="Submit"> <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
