@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+#result{
+    text-align: left;
+}
+
+input[type=text], select{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+textarea{
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+input[type=submit]{
+    width: 25%;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+
+input[type=reset]{
+    width: 25%;
+    height: 30px;
+    background-color: red;
+    color: white;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+}
+
+#sidebar{
+    width: 20%;
+    height: 100vh;
+    float: left;
+    background-color: brown;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+}
+
+#content{
+    width: 80%;
+    height: 100vh;
+    float: right;
+}
+
+iframe{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
